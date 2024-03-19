@@ -1,0 +1,83 @@
+@media screen and (max-width:984px) {
+    .hero_intro_section {
+        display: block;
+        text-align: center;
+    }
+
+    .hero {
+        padding: 0px;
+        margin-top: -50px;
+    }
+
+    .my_skills .card {
+        flex-wrap: wrap;
+    }
+
+    .card, .card1 {
+        width: 90%;
+        margin: auto;
+        margin-top: 68px;
+    } 
+
+    .my_skills {
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width:688px) {
+    .links a {
+        display: none;
+    }
+
+    .nav_bar {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .hero_intro_section .text_hero_section p {
+        font-size: 18px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .hero_intro_section .text_hero_section .Skill p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .hero_intro_section .text_hero_section .Skill {
+        margin-left: 10px;
+        width: 290px;
+    }
+
+    .hero-images img {
+        width: 200px;
+        margin-top: -60px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .hero_intro_section {
+        text-align: center;
+    }
+
+    .text_hero_section  {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .text_hero_section p {
+        font-size: 15px !important;
+    }
+
+    .text_hero_section h1 {
+        font-size: 22px !important;
+    }
+}
+
